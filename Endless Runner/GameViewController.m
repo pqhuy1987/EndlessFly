@@ -40,8 +40,8 @@
     // Configure the view
     [super viewDidLayoutSubviews];
     SKView *skView = (SKView *)self.view;
-    skView.showsFPS = YES;
-    skView.showsNodeCount = YES;
+    skView.showsFPS = NO;
+    skView.showsNodeCount = NO;
     skView.ignoresSiblingOrder = YES;
     
     // Create and configure the scene.
